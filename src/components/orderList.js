@@ -38,6 +38,7 @@ function orderList(props) {
 
   return (
     <Fragment>
+      <h1>Order List</h1>
       <Paper className={classes.root}>
         <Table className={classes.table}>
           <TableHead>

@@ -41,7 +41,7 @@ function productList(props) {
   return (
     <Fragment>
       <h1>Product List</h1>
-      <Link to={`admin/product/add`} className="btn btn-primary float-right">Add Product</Link>
+      <Link to={`product/add`} className="btn btn-primary float-right">Add Product</Link>
       <br />
       <Paper className={classes.root}>
         <Table className={classes.table}>
